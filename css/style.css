@@ -1,0 +1,143 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+/*	background-color: black;*/
+
+}
+.okay {
+	background-color: whitsmoke;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+
+}
+.logo {
+	cursor: pointer;
+	height: 50px
+}
+
+
+.nav1 ul li{
+	display: inline-block;
+	font-weight: bold;
+	padding-left: 30px;
+	padding-top: 15px;
+}
+.nav1 ul{
+	margin-right: 50px;
+}
+.nav1 ul li a {
+	text-decoration: none;
+	color: black;
+}
+.nav1 ul li a:hover{
+	color: blue;
+}
+.lastnav {
+	padding-top: 7px;
+}
+.log {
+	padding-right: 10px;
+	font-weight: bold;
+	color: black;
+	font-size: 15px;
+
+}
+.log:hover{
+	text-decoration: none;
+	color: blue;
+}
+.btn {
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	font-size: 15rpx;
+	width: 110px;
+	height: 40px;
+	border-radius: 10px;
+}
+.btn:hover {
+	background-color: limegreen;
+	color: yellow;
+	transform: translate(20px);
+}
+.logo:hover {
+	transform: translate(10px);
+}
+.hero{
+/*	background-color: grey;*/
+	max-height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box1 {
+	width: 600px;
+/*	background-color: whitesmoke;*/
+	min-height: 500px;
+	padding-left: 70px;
+	padding-top: 70px;
+}
+.easytext {
+	font-weight: bold;
+	font-size: 70px;
+
+	color: rgb(11, 53, 88);
+}
+.mypic {
+	max-height: 500px;
+}
+.mypic:hover{
+	transform: scale(1.1);
+	transition: ease 0.6s;
+}
+.insidelogo:hover{
+	transform: scale(1.1);
+	transition: ease 0.1s;
+}
+.signup-button{
+	border: 1px solid rgb(231, 237, 246);
+	height: 40px;
+	width: 300px;
+	border-radius: 7px;
+	padding-left: 20px;
+}
+.signup {
+	border: 1px solid rgb(231, 237, 246);
+	height: 40px;
+	width: 70px;
+	border-radius: 7px;
+	background-color: rgb(0, 107, 255);
+	color: white;
+	margin-left: 20px;
+}
+.signup:hover{
+	transform: scale(1.1);
+	transition: ease 0.1s;
+}
+.worldwidebox p{
+	text-align: center;
+	margin-top: 100px;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgb(11, 53, 88);
+}
+.logobox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.logobox img {
+	height: 30px;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+@media screen and (min-width: 480px) {
+	body {
+/*	  background-color: lightgreen;*/
+	}
+  }
