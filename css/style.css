@@ -117,12 +117,22 @@ body {
 	transform: scale(1.1);
 	transition: ease 0.1s;
 }
+.imghover:hover{
+	transform: scale(1.1);
+	transition: ease 0.1s;
+}
+
 .worldwidebox p{
 	text-align: center;
 	margin-top: 100px;
 	font-weight: bold;
 	font-size: 30px;
 	color: rgb(11, 53, 88);
+}
+.navicons {
+	margin-right: 5px;
+	color: blue;
+	font-size: 14px;
 }
 .logobox{
 	display: flex;
@@ -136,6 +146,41 @@ body {
 	margin-top: 50px;
 	margin-bottom: 40px;
 }
+
+.layout-video{
+	max-height: 300px;
+/*	margin-left: 400px;*/
+}
+.collayout{
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+.sell-height{
+	height: 300px;
+	margin-bottom: 90px;
+}
+.fourbox {
+	margin-bottom: 100px;
+	margin-top: 30px;
+/*	background-color: gray;*/
+}
+
+#buttom-tag{
+	background-color: rgb(11, 53, 88);
+	border: none;
+	border-radius: 5px;
+	min-height: 40px;
+	min-width: 250px;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+}
+/*.back{*/
+	background-color: gray;
+}
+
+
+
 @media screen and (min-width: 480px) {
 	body {
 /*	  background-color: lightgreen;*/
